@@ -3,32 +3,32 @@ export default function About() {
       <div className="max-w-6xl mx-auto space-y-4 p-4 mt-2">
         <div className="text-xl whitespace-normal break-words overflow-wrap-word">
           <p>
-            Full code for this project you can find at this link
+            Full code for this project you can find at this link&nbsp;
             <span className="sm:text-2xl text-amber-600 font-medium">
               <a
                 href="https://github.com/DanielBojchovski/portfolio"
                 className="underline"
               >
-                {" "}https://github.com/DanielBojchovski/portfolio{" "}
+                https://github.com/DanielBojchovski/portfolio
               </a>
-            </span>
-            and here's link to my Github profile
+            </span>&nbsp;
+            and here's link to my Github profile&nbsp;
             <span className="sm:text-2xl text-amber-600 font-medium">
               <a
                 href="https://github.com/DanielBojchovski"
                 className="underline"
               >
-                {" "}https://github.com/DanielBojchovski{" "}
+                https://github.com/DanielBojchovski
               </a>
-            </span>
+            </span>&nbsp;
             where you can find more of my projects. Also here's link to my
-            youtube channel
+            youtube channel&nbsp;
             <span className="sm:text-2xl text-amber-600 font-medium">
               <a
                 href="https://www.youtube.com/@daniel49245/videos"
                 className="underline"
               >
-                {" "}https://www.youtube.com/@daniel49245/videos
+                https://www.youtube.com/@daniel49245/videos
               </a>
             </span>
             .
@@ -42,7 +42,7 @@ export default function About() {
           <h3>Javascript:</h3>
           <ul className="list-disc list-inside">
             <li>
-              Next.js 13
+              Next.js 13{" "}
               <span className="text-xl text-amber-600 font-medium">
                 (used for this project)
               </span>
@@ -61,7 +61,7 @@ export default function About() {
           <h3>CSS:</h3>
           <ul className="list-disc list-inside">
             <li>
-              Tailwind
+              Tailwind&nbsp;
               <span className="text-xl text-amber-600 font-medium">
                 (used for this project)
               </span>
@@ -72,7 +72,7 @@ export default function About() {
           <h3>Backend solutions:</h3>
           <ul className="list-disc list-inside">
             <li>
-              Firebase
+              Firebase&nbsp;
               <span className="text-xl text-amber-600 font-medium">
                 (used for this project)
               </span>
@@ -83,9 +83,9 @@ export default function About() {
           <br />
           <p>
             If you're interested in working with me or just want to chat, feel
-            free to send me an email at
+            free to send me an email at&nbsp;
             <span className="text-xl text-amber-600 font-medium">
-              {" "}danielb92@hotmail.com
+              danielb92@hotmail.com
             </span>
             .
           </p>

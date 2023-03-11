@@ -5,10 +5,10 @@ export default function Home() {
         <h1 className="text-4xl font-medium text-amber-600">Hi there,</h1>
         <div className="text-xl">
           <p>
-            I'm Daniel, a{" "}
+            I'm Daniel, a&nbsp;
             <span className="text-3xl text-amber-600 font-medium">
               Software Developer
-            </span>{" "}
+            </span>&nbsp;
             based in Skopje, Macedonia. I have a passion for building beautiful
             and user-friendly applications, and I have hands-on experience in
             developing various types of software.
@@ -16,17 +16,17 @@ export default function Home() {
           <br />
           <p>
             As examples, you can find links to some of my applications,
-            including an{" "}
+            including an&nbsp;
             <span className="text-2xl text-amber-600 font-medium">
               IMDB app, a ToDo app and a Credit/Loan Calculator
-            </span>{" "}
+            </span>&nbsp;
             in the navigation bar of this website.
           </p>
           <br />
           <p>
             I have a solid understanding of both front-end and back-end
             development, and I'm excited to put my skills to use in a
-            professional setting. As a{" "}
+            professional setting. As a&nbsp;
             <span className="text-2xl text-amber-600 font-medium">
               quick learner and a team player
             </span>
