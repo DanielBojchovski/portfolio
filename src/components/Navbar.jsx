@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="flex">
           <NavbarItem title="Home" address="/" Icon={AiFillHome} />
           <NavbarItem title="IMDB" address="/imdb" Icon={SiThemoviedatabase} />
-          <NavbarItem title="ToDo's" address="/todo" Icon={RiTodoFill} />
+          <NavbarItem title="ToDo's" address="/todos" Icon={RiTodoFill} />
           <NavbarItem
             title="Credit Calculator"
             address="/credit"
