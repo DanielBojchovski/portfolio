@@ -12,7 +12,7 @@ export default function About() {
                 https://github.com/DanielBojchovski/portfolio
               </a>
             </span>&nbsp;
-            and here's link to my Github profile&nbsp;
+            and here&apos;s link to my Github profile&nbsp;
             <span className="sm:text-2xl text-amber-600 font-medium">
               <a
                 href="https://github.com/DanielBojchovski"
@@ -21,7 +21,7 @@ export default function About() {
                 https://github.com/DanielBojchovski
               </a>
             </span>&nbsp;
-            where you can find more of my projects. Also here's link to my
+            where you can find more of my projects. Also here&apos;s link to my
             youtube channel&nbsp;
             <span className="sm:text-2xl text-amber-600 font-medium">
               <a
@@ -82,7 +82,7 @@ export default function About() {
 
           <br />
           <p>
-            If you're interested in working with me or just want to chat, feel
+            If you&apos;re interested in working with me or just want to chat, feel
             free to send me an email at&nbsp;
             <span className="text-xl text-amber-600 font-medium">
               danielb92@hotmail.com

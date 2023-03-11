@@ -5,7 +5,7 @@ export default function Home() {
         <h1 className="text-4xl font-medium text-amber-600">Hi there,</h1>
         <div className="text-xl">
           <p>
-            I'm Daniel, a&nbsp;
+            I&apos;m Daniel, a&nbsp;
             <span className="text-3xl text-amber-600 font-medium">
               Software Developer
             </span>&nbsp;
@@ -25,7 +25,7 @@ export default function Home() {
           <br />
           <p>
             I have a solid understanding of both front-end and back-end
-            development, and I'm excited to put my skills to use in a
+            development, and I&apos;m excited to put my skills to use in a
             professional setting. As a&nbsp;
             <span className="text-2xl text-amber-600 font-medium">
               quick learner and a team player
