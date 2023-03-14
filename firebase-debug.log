@@ -1,44 +1,31 @@
-[debug] [2023-03-11T22:31:49.177Z] ----------------------------------------------------------------------
-[debug] [2023-03-11T22:31:49.179Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ivona\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2023-03-11T22:31:49.180Z] CLI Version:   11.24.1
-[debug] [2023-03-11T22:31:49.180Z] Platform:      win32
-[debug] [2023-03-11T22:31:49.180Z] Node Version:  v16.14.2
-[debug] [2023-03-11T22:31:49.182Z] Time:          Sat Mar 11 2023 23:31:49 GMT+0100 (Central European Standard Time)
-[debug] [2023-03-11T22:31:49.182Z] ----------------------------------------------------------------------
+[debug] [2023-03-11T23:34:36.114Z] ----------------------------------------------------------------------
+[debug] [2023-03-11T23:34:36.118Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ivona\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-03-11T23:34:36.119Z] CLI Version:   11.24.1
+[debug] [2023-03-11T23:34:36.119Z] Platform:      win32
+[debug] [2023-03-11T23:34:36.119Z] Node Version:  v16.14.2
+[debug] [2023-03-11T23:34:36.121Z] Time:          Sun Mar 12 2023 00:34:36 GMT+0100 (Central European Standard Time)
+[debug] [2023-03-11T23:34:36.122Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2023-03-11T22:31:49.282Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2023-03-11T22:31:49.283Z] > authorizing via signed-in user (danielbojchovski92@gmail.com)
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  C:\Users\ivona\OneDrive\Desktop\Next.js\portfolio
-
-Before we get started, keep in mind:
-
-  * You are initializing within an existing Firebase project directory
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[debug] [2023-03-11T22:32:14.099Z] Using project from CLI flag: todos-firebase-70cc2
-[debug] [2023-03-11T22:32:14.101Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/todos-firebase-70cc2 [none]
-[debug] [2023-03-11T22:32:14.510Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/todos-firebase-70cc2 200
-[debug] [2023-03-11T22:32:14.510Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/todos-firebase-70cc2 {"projectId":"todos-firebase-70cc2","projectNumber":"274760817271","displayName":"todos-firebase","name":"projects/todos-firebase-70cc2","resources":{"hostingSite":"todos-firebase-70cc2"},"state":"ACTIVE","etag":"1_515fe983-4dab-47d7-9c0b-ac7c5bf17184"}
-[info] i  Using project todos-firebase-70cc2 (todos-firebase) 
-[info] 
-=== Hosting Setup
-[info] 
-[info] Your public directory is the folder (relative to your project directory) that
-[info] will contain Hosting assets to be uploaded with firebase deploy. If you
-[info] have a build process for your assets, use your build's output directory.
-[info] 
+[debug] [2023-03-11T23:34:36.239Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-11T23:34:36.240Z] > authorizing via signed-in user (danielbojchovski92@gmail.com)
+[debug] [2023-03-11T23:34:36.240Z] [iam] checking project todos-firebase-70cc2 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-03-11T23:34:36.243Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/todos-firebase-70cc2:testIamPermissions [none]
+[debug] [2023-03-11T23:34:36.244Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/todos-firebase-70cc2:testIamPermissions x-goog-quota-user=projects/todos-firebase-70cc2
+[debug] [2023-03-11T23:34:36.244Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/todos-firebase-70cc2:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-03-11T23:34:37.245Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/todos-firebase-70cc2:testIamPermissions 200
+[debug] [2023-03-11T23:34:37.245Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/todos-firebase-70cc2:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-03-11T23:34:37.247Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/todos-firebase-70cc2 [none]
+[debug] [2023-03-11T23:34:37.620Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/todos-firebase-70cc2 200
+[debug] [2023-03-11T23:34:37.621Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/todos-firebase-70cc2 {"projectId":"todos-firebase-70cc2","projectNumber":"274760817271","displayName":"todos-firebase","name":"projects/todos-firebase-70cc2","resources":{"hostingSite":"todos-firebase-70cc2"},"state":"ACTIVE","etag":"1_0aad841b-9e63-491a-895e-f90fd321dd99"}
+[debug] [2023-03-11T23:34:43.688Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/todos-firebase-70cc2/sites pageToken=&pageSize=10
+[debug] [2023-03-11T23:34:44.927Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/todos-firebase-70cc2/sites 200
+[debug] [2023-03-11T23:34:44.927Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/todos-firebase-70cc2/sites {"sites":[{"name":"projects/todos-firebase-70cc2/sites/todos-firebase-70cc2","defaultUrl":"https://todos-firebase-70cc2.web.app","appId":"1:274760817271:web:0eeca8bf62c4a161fb8472","type":"DEFAULT_SITE"}]}
+[debug] [2023-03-11T23:34:44.928Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:274760817271:web:0eeca8bf62c4a161fb8472/config [none]
+[debug] [2023-03-11T23:34:45.941Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:274760817271:web:0eeca8bf62c4a161fb8472/config 200
+[debug] [2023-03-11T23:34:45.942Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:274760817271:web:0eeca8bf62c4a161fb8472/config {"projectId":"todos-firebase-70cc2","appId":"1:274760817271:web:0eeca8bf62c4a161fb8472","storageBucket":"todos-firebase-70cc2.appspot.com","apiKey":"AIzaSyDjJjZEqxnyZMmU8ynzGRUGZZv06YjivVk","authDomain":"todos-firebase-70cc2.firebaseapp.com","messagingSenderId":"274760817271","measurementId":"G-13K6DQM1LD"}
+[debug] [2023-03-11T23:35:49.537Z] TypeError: Cannot read properties of null (reading 'endsWith')
+    at ɵcodegenPublicDirectory (C:\Users\ivona\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\next\index.js:206:56)
+    at async prepareFrameworks (C:\Users\ivona\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\index.js:269:13)
+    at async deploy (C:\Users\ivona\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
